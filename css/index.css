@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #1d8018;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 30px;
+}
+
+.header__desc {
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.main {
+    padding: 40px;
+}
+
+.first {
+    padding: 20px 0;
+    background: #ededd5;
+}
+
+.first__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.maincontent {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.demonstration {
+    padding: 15px 15px;
+    background: #ededd5;
+}
+
+.demonstration__img {
+    width: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.demonstration__desc {
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.maincontent-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages {
+    padding: 50px 50px;
+    background: #ededd5;
+}
+
+.advantages__title {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.advantages-list__item {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.advantages-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.flaws {
+    padding: 50px 50px;
+    background: #ededd5;
+}
+
+.flaws__title {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.flaws-list__item {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.flaws-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #1d8018;
+}
+
+.foot-container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.offer-form {
+    background: #ededd5; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.offer-form__desc {
+    margin-bottom: 5px;
+}
+
+.offer-form__input {
+    margin-bottom: 10px;
+}
+
+.offer-form__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
